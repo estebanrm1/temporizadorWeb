@@ -22,6 +22,24 @@
     <main class="text-center container">
         <h1 class="mt-5">Temporizador ⏲</h1>
         <hr>
+        <div id="contenedorInput">
+            <div>
+                <h5>Minutos</h5>
+                <input type="number" class="input" id="minutos" placeholder="Minutos" required>
+            </div>
+            <div>
+                <h5>Segundos</h5>
+                <input type="number" class="input" id="segundos" placeholder="Segundos" required>
+            </div>
+        </div>
+        <div class="my-2">
+            <h2 id="tiempoRestante">00:00:00</h2>
+            <button id="btnIniciar" class="btn btn-outline"><i class="bi bi-play"></i></button>
+            <button id="btnPausar" class="btn btn-outline"><i class="bi bi-pause"></i></button>
+            <button id="btnParar" class="btn btn-outline"><i class="bi bi-stop"></i></button>
+        </div>
+        
+        
     </main>
     <footer class="bg-dark text-danger text-center py-4">
         <p>&copy;Todos los derechos reservados</p>
