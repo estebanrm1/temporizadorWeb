@@ -11,7 +11,7 @@ Ejercicio nº6 - Temporizador
 En una terminal de git ejecuta el siguiente comando:
 
 ``
-git clone https://github.com/estebanrm1/RelojWeb.git
+git clone https://github.com/estebanrm1/temporizadorWeb.git
 ``
 
 ## ©Autor
